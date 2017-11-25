@@ -38,7 +38,7 @@ The image features (ResNet) can be downloaded here: https://aashishv.stackstorag
 
 **WARNING**: Always convert the loaded data from .h5 file to numpy array. This is done because if you are using multiple threads to read the data from .h5 file sometimes it picks up data from the incorrect index.
 
-### Exsample Code to access the image features
+### Example Code to access the image features
 
 ```python
 import h5py
