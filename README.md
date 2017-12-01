@@ -16,6 +16,8 @@ As a final product, you will be asked to write a report with your findings, whic
 * A section where you discuss future work based on your experience and what you think could significantly improve performance (but you didn’t find the time to investigate);
 * Besides the report, please also provide a link to your github repository with your implementation.
 
+The general report requirements can be found [here](https://github.com/tdeoskar/NLP1-2017/blob/master/project-reqs.md)
+
 ## Further Readings and useful Links
 * [Simple Baseline for Visual Question Answering](https://arxiv.org/pdf/1512.02167.pdf)
 * [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
