@@ -128,6 +128,9 @@ print(outputs)
 # [torch.FloatTensor of size 2x3x3]
 
 question_lengths = Variable(torch.LongTensor([2,3]))
+
+# Note that in the expanded size of the question_lengths, the sequence length dimension is 1. 
+# This does the trick of getting only 1 particular output along the 1st (=sequence) dimension.
 last_out = torch.gather(outputs, 1, question_lengths.view(-1,1,1).expand(2,1,3)-1) # minus 1 to get from length to index
 print(last_out)
 
